@@ -1,0 +1,19 @@
+{
+  "name": "sysinfo",
+  "version": "1.0.0",
+  "description": "Realtime system dashboard built with Bun, node-os-utils and node:os",
+  "license": "MIT",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "node-os-utils": "^2.0.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}
